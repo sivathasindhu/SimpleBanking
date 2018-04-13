@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Home</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/greeting.js"></script>
+  <script src="./js/userTransactions.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html">Online<span class="logo_colour">Banking</span></a></h1>
+          <h2>Simple. Banking. Workflow.</h2>
+        </div>
+        <div align="right"><BR><BR>
+        	<h4 class="customer-name"><b>Name:</b> </h4>
+        	<h4 class="customer-accountNo"><b>Account No:</b> </h4>
+        	<h4 class="customer-emailId"><b>E-Mail:</b> </h4>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="./reports.html">Reports</a></li>
+          <li><a href="./deposit.html">Deposit</a></li>
+          <li><a href="./withdraw.html">Withdraw</a></li>
+          <li><a href="./transfer.html">Transfer</a></li>
+          <li><a href="./signUp.html">Sign Up</a></li>
+          <li><a href="/banking/logout">Log out</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container"><br><br><br>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Latest News</h3>
+            <h4>Bank Quarter Results:</h4>
+            <h5>April 15th, 2018</h5>
+            <p>Bank offers 2% home loan for valuable customers<br /></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <h1><b>Statement Summary:</b><br></h1>
+        <table id="tableUserTransactions"></table>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer"/>
+  </div>
+</body>
+</html>
